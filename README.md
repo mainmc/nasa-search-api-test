@@ -1,2 +1,3 @@
-# nasa-search-api-test
-Nasa Search API
+# Nasa Search API
+
+Projeto teste para aprender sobre Ajax e consumo de API
