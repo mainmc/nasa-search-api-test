@@ -1,0 +1,57 @@
+<!DOCTYPE hmtl>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Nasa Search Images</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="title">
+            <h1>Terra o Lar da Criação</h1>
+        </div>
+
+        <div class="content">
+            <p><i><span style="font-size: 20px; color: aliceblue;">"</span>Aqui no planeta Terra somos uma comunidade 
+                global de tecnólogos,
+                construtores, agricultores, artistas e 
+                pensadores trabalhando juntos...<span style="font-size: 20px; color: aliceblue;">"</span></i>
+            </p>
+        </div>
+
+        <div class="section">
+            <img src="images/globe-bottomless.png" alt="">
+            <div class="section-search">
+                <div class="section-search-bar">
+                    <input type="text" placeholder="Pesquise algum Planeta">
+                    <button onclick="requestImages()">Pesquisar</button>
+                </div>
+                <div class="filter-options">
+                    <h2>Filtro por ano</h2>
+                    <select name="year" id="select-options">
+                        <option value="0">1910</option>
+                        <option value="1">1920</option>
+                        <option value="2">1930</option>
+                        <option value="3">1940</option>
+                        <option value="4">1950</option>
+                        <option value="5">1960</option>
+                        <option value="6">1970</option>
+                        <option value="7">1980</option>
+                        <option value="8">1990</option>
+                        <option value="9">2000</option>
+                        <option value="10">2010</option>
+                        <option value="11">2020</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-images" id="containerImages"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
